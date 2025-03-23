@@ -3,3 +3,5 @@ python-telegram-bot
 requests
 sqlalchemy
 pytest
+flake8
+black
