@@ -37,7 +37,7 @@ jobs:
 
     - name: Auto fix code style with autopep8
       run: |
-        autopep8 --in-place --aggressive --aggressive .
+        find . -name "*.py" | xargs autopep8 --in-place --aggressive --aggressive
 
     - name: Run tests
       run: |
