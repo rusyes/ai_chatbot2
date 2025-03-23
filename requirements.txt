@@ -5,3 +5,4 @@ sqlalchemy
 pytest
 flake8
 black
+autopep8
